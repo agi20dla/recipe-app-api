@@ -1,7 +1,9 @@
+from unittest.mock import patch
+
 from core import models
 from django.contrib.auth import get_user_model
 from django.test import TestCase
-from unittest.mock import patch
+
 
 def sample_user(email='test@logicalsoftware.co', password='testpass'):
     """Create a sample user"""
